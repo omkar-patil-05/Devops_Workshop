@@ -27,22 +27,22 @@ jobs:
    steps: 
     - run: ./server.sh
   job3:
-    needs: job2
-    strategy:
-     matrix:
-       version: [10,12,14]
-       os: [ubuntu-latest, windows-latest, macOS-latest]
-     runs-on: ${{ matrix.os }}
-     steps: 
-      - run: echo "JOB3 RUNS IF JOB2 IS SUCCESSFUL "
+   needs: job2
+   strategy:
+    matrix:
+     version: [10,12,14]
+     os: [ubuntu-latest, windows-latest, macOS-latest]
+   runs-on: ${{ matrix.os }}
+   steps: 
+    - run: echo "JOB3 RUNS IF JOB2 IS SUCCESSFUL "
   job4:
-    if: always() 
-    needs: job2
-    strategy:
-     matrix:
-       version: [10,12,14]
-       os: [ubuntu-latest, windows-latest, macOS-latest]
-     runs-on: ${{ matrix.os }}
-     steps: 
-      - run: echo "JOB4 RUNS EVEN IF JOB2 FAILS " 
+   if: always() 
+   needs: job2
+   strategy:
+    matrix:
+     version: [10,12,14]
+     os: [ubuntu-latest, windows-latest, macOS-latest]
+   runs-on: ${{ matrix.os }}
+   steps: 
+    - run: echo "JOB4 RUNS EVEN IF JOB2 FAILS " 
     
