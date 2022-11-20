@@ -47,7 +47,7 @@ jobs:
           target_branch: gh-pages
           build_dir: ./build
        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{github.token}}
           
   stale: 
     runs-on: ubuntu-latest
