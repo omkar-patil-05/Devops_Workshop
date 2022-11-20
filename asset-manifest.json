@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0223a9b3.css",
+    "main.js": "/static/js/main.652010cb.js",
+    "static/media/grey-plexus-networking-2_gs4bVa0k.mp4": "/static/media/grey-plexus-networking-2_gs4bVa0k.1405ba132404b634fa26.mp4",
+    "static/media/Kubernetes-removebg-preview.png": "/static/media/Kubernetes-removebg-preview.9ee2170a22087911cfe9.png",
+    "static/media/NEW-GCP-Logo.png": "/static/media/NEW-GCP-Logo.4cc74a54584da3d09d6d.png",
+    "static/media/logo.jpg": "/static/media/logo.78b2cb129033f33a90bd.jpg",
+    "static/media/docker-kubernetes.jpg": "/static/media/docker-kubernetes.737f8d180bdb69baab86.jpg",
+    "static/media/devops-multicolor.png": "/static/media/devops-multicolor.61b0636a9da61f209336.png",
+    "static/media/gcp_logo1.png": "/static/media/gcp_logo1.74e8788176dbacbea5a5.png",
+    "static/media/docker_logo.webp": "/static/media/docker_logo.82153b5aad16f392b3d2.webp",
+    "static/media/gitac.png": "/static/media/gitac.5403b8db7e0740edbb69.png",
+    "static/media/github.webp": "/static/media/github.cc9cce28b610bff0cf4b.webp",
+    "static/media/github-action-01.webp": "/static/media/github-action-01.03382001185288adc602.webp",
+    "index.html": "/index.html",
+    "main.0223a9b3.css.map": "/static/css/main.0223a9b3.css.map",
+    "main.652010cb.js.map": "/static/js/main.652010cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0223a9b3.css",
+    "static/js/main.652010cb.js"
+  ]
+}
